@@ -26,6 +26,23 @@ The following models were trained:
 
 A linear layer was added to every model pretrained on ImageNet with dimension (no_in_features, no_of_classes).
 Here, no_in_features = 1000 and no_of_classes = 102.
+
+## Usage:
+To get the trained models use the kaggle dataset - https://www.kaggle.com/apoorvbhardwaj/102-category-oxford-models
+For making prediction with the model, call 'predict' function defined in model.py 
+
+###To get the training, validation and test data:
+refer to kaggle competition - https://www.kaggle.com/c/oxford-102-flower-pytorch/ or the original dataset website - http://www.robots.ox.ac.uk/~vgg/data/flowers/102/
+
+For downloading the dataset use the Kaggle API.   
+Documentation of Kaggle API - https://github.com/Kaggle/kaggle-api
+
+Change the path of dataset in config file.
+
+For training a model, define the model in main.py and run the script. 
+Write the model path in config file, where you want the model to be saved.
+Learning rate and batch size can be changed using config file.
+
 ## Results
 
 | Model      | Accuracy | Public Score |
