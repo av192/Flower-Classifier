@@ -31,7 +31,7 @@ Here, no_in_features = 1000 and no_of_classes = 102.
 To get the trained models use the kaggle dataset - https://www.kaggle.com/apoorvbhardwaj/102-category-oxford-models
 For making prediction with the model, call 'predict' function defined in model.py 
 
-###To get the training, validation and test data:
+To get the training, validation and test data:
 refer to kaggle competition - https://www.kaggle.com/c/oxford-102-flower-pytorch/ or the original dataset website - http://www.robots.ox.ac.uk/~vgg/data/flowers/102/
 
 For downloading the dataset use the Kaggle API.   
