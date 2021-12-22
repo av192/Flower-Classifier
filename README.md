@@ -24,7 +24,7 @@ The following models were trained:
 * MobileNet V2
 * ResNet34
 
-A linear layer was added to every model pretrained on ImageNet with dimension (no_in_features, no_of_classes)
+A linear layer was added to every model pretrained on ImageNet with dimension (no_in_features, no_of_classes).
 Here, no_in_features = 1000 and no_of_classes = 102.
 ## Results
 
