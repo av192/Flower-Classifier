@@ -13,8 +13,12 @@ I thank Professor Plum, Ph.D. for providing this dataset.
 ## Requirements
 * Python >= 3.6
 * PyTorch >= 1.0.0
-* torchvision
+* Torchvision
 * Pandas >=1.2.0
+* PIL >= 8.0.0
+* Matplotlib >= 3.4.0
+* PyYAML
+* OpenCV
 
 ## Training
 The following models were trained:
